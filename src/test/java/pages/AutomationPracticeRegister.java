@@ -72,8 +72,5 @@ public class AutomationPracticeRegister {
     @FindBy(id="submitAccount")
     public WebElement registerAccountButton;
 
-    @FindBy(xpath = "//*[text()='Account Created!']")
-    public WebElement createAccountConfirm;
-
 
 }

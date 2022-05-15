@@ -31,4 +31,15 @@ public class AutomationPracticeHome {
 
     @FindBy(id = "search_query_top")
     public WebElement searchBar;
+
+    @FindBy(xpath = "//div[@class='shopping_cart']")
+    public WebElement cartHomePageElement;
+
+    @FindBy(id = "button_order_cart")
+    public WebElement checkOutButtonInCart;
+
+    @FindBy(xpath = "//a[@class='account']")
+    public WebElement accountButtonHome;
+
+
 }

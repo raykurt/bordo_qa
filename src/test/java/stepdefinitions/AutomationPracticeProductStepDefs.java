@@ -14,10 +14,10 @@ public class AutomationPracticeProductStepDefs {
     AutomationPracticeHome homePage = new AutomationPracticeHome();
     AutomationPracticeProduct product = new AutomationPracticeProduct();
 
-    String summerDressesFiyat;
-    String summerAranilanUrunFiyat;
-    String summerDressesAd;
-    String summerAranilanUrunAd;
+    static String summerDressesFiyat;
+    static String summerAranilanUrunFiyat;
+    static String summerDressesAd;
+    static String summerAranilanUrunAd;
 
 
     @Given("kullanici dresses ve summer dresses menusunden sepete urun ekler")
@@ -45,11 +45,4 @@ public class AutomationPracticeProductStepDefs {
         product.urunuSepeteEkleButonu.click();
     }
 
-    @Then("kullanici cart ve checkout menusunden sepete gidip urunleri dogrular")
-    public void kullanici_cart_ve_checkout_menusunden_sepete_gidip_urunleri_dogrular() {
-        System.out.println(summerDressesAd);
-        System.out.println(summerDressesFiyat);
-        System.out.println(summerAranilanUrunAd);
-        System.out.println(summerAranilanUrunFiyat);
-    }
 }
