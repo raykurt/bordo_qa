@@ -32,7 +32,6 @@ public class AutomationPracticeProductStepDefs {
         summerDressesFiyat=product.urunFiyatBilgisi.getText();
         product.urunuSepeteEkleButonu.click();
 
-
     }
 
     @When("kullanici {string} ürünü aratip sepete ekler")
