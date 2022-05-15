@@ -52,5 +52,4 @@ public class AutomationPracticeProductStepDefs {
         System.out.println(summerAranilanUrunAd);
         System.out.println(summerAranilanUrunFiyat);
     }
-
 }
