@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="29.388">
+    <testcase classname="Automation Practice Calisma" name="Automation Practice Yeni Kullanici Olusturma" time="20.946">
+        <system-out><![CDATA[Given kullanici tarayici acip automationpractice sayfasina gider............passed
+And kullanici sign in butonuna tiklar.......................................passed
+And kullanici gecerli bir email adresiyle ilerler...........................passed
+When kullanici istenilen bilgileri girip yeni kullanici olusturur...........passed
+Then kullanici yeni kullanici olusturdugunu dogrular........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Practice Calisma" name="Automation Practice Sepete Urun Ekleme" time="8.142">
+        <system-out><![CDATA[Given kullanici dresses ve summer dresses menusunden sepete urun ekler......passed
+When kullanici "summer" ürünü aratip sepete ekler...........................passed
+Then kullanici cart ve checkout menusunden sepete gidip urunleri dogrular...passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Practice Calisma" name="Automation Practice Sepete Urun Ekleme 2" time="0.006">
+        <failure message="The scenario has no steps" type="java.lang.Exception"/>
+    </testcase>
+</testsuite>
