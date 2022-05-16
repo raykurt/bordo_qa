@@ -12,7 +12,7 @@ public class AutomationPracticeProduct {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy(xpath = "(//a[@class='product-name'])[3]")
+    @FindBy(xpath = "(//div[@class='right-block']/h5/a)[2]")
     public WebElement summerDressesUrun;
 
     @FindBy(xpath = "//h1")
@@ -27,7 +27,7 @@ public class AutomationPracticeProduct {
     @FindBy(id = "add_to_cart")
     public WebElement urunuSepeteEkleButonu;
 
-    @FindBy(xpath = "(//a[@class='product-name'])[12]")
+    @FindBy(xpath = "(//div[@class='right-block']/h5/a)[3]")
     public WebElement summerAranilanUrun;
 
     @FindBy(id = "color_15")

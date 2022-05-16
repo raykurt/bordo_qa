@@ -5,6 +5,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
+import java.util.List;
+
 public class AutomationPracticeHome {
 
     public AutomationPracticeHome(){
@@ -22,6 +24,18 @@ public class AutomationPracticeHome {
 
     @FindBy(xpath = "//a[@class='logout']")
     public WebElement signOutHomePageButton;
+
+    @FindBy(xpath = "//a[@class='login']")
+    public List<WebElement> signInList;
+
+    @FindBy(xpath = "//input[@name='email']")
+    public WebElement registerEmailBox;
+
+    @FindBy(xpath = "//input[@data-validate='isPasswd']")
+    public WebElement registerPasswordBox;
+
+    @FindBy(id = "SubmitLogin")
+    public WebElement submitSignInButton;
 
     @FindBy(xpath = "(//a[@title='Dresses'])[2]")
     public WebElement dressesHomePage;

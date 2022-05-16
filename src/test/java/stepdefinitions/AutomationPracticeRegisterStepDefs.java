@@ -7,6 +7,7 @@ import pages.AutomationPracticeHome;
 import pages.AutomationPracticeRegister;
 import utilities.ConfigurationReader;
 import utilities.Driver;
+import utilities.Log;
 
 public class AutomationPracticeRegisterStepDefs {
 
@@ -16,6 +17,7 @@ public class AutomationPracticeRegisterStepDefs {
 
     @When("kullanici istenilen bilgileri girip yeni kullanici olusturur")
     public void kullanici_istenilen_bilgileri_girip_yeni_kullanici_olusturur() {
+        Log.info("Gerekli Bilgiler Girilerek Yeni Bir Uye Kaydi Olusturuluyor...");
         register.genderBox.click();
         register.customerFirstNameBox.sendKeys("bordoabc");
         register.customerLastNameBox.sendKeys("bordoabcd");

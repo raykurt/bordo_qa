@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="65.807">
-    <testcase classname="Automation Practice Calisma" name="Automation Practice Yeni Kullanici Olusturma" time="38.019">
-        <system-out><![CDATA[Given kullanici tarayici acip automationpractice sayfasina gider............passed
-And kullanici sign in butonuna tiklar.......................................passed
-And kullanici gecerli bir email adresiyle ilerler...........................passed
-When kullanici istenilen bilgileri girip yeni kullanici olusturur...........passed
-Then kullanici yeni kullanici olusturdugunu dogrular........................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="16.113">
+    <testcase classname="Json Api Entegrasyon" name="Json Api Status Code" time="14.033">
+        <system-out><![CDATA[Given kullanici endpoint olarak "http://generator.swagger.io/api/swagger.json" tanimlar.passed
+And kullanici request gönderip response elde eder...........................passed
+Then kullanici status code assert eder......................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Automation Practice Calisma" name="Automation Practice Sepete Urun Ekleme" time="15.379">
-        <system-out><![CDATA[Given kullanici dresses ve summer dresses menusunden sepete urun ekler......passed
-When kullanici "summer" ürünü aratip sepete ekler...........................passed
-Then kullanici cart ve checkout menusunden sepete gidip urunleri dogrular...passed
-And kullanici sepeti dogrulayip address adimina ilerler.....................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Automation Practice Calisma" name="Automation Practice Urun Satin Alma" time="12.06">
-        <system-out><![CDATA[Given kullanici address secip shipping adimina ilerler......................passed
-And kullanici kargo ve hizmet sartlarini kabul edip payment adimina ilerler.passed
-When kullanici payment adiminda odeme yontemi secip siparisi tamamlar.......passed
-Then kullanici siparisini account ve order history adimlariyla dogrular.....passed
+    <testcase classname="Json Api Entegrasyon" name="Json Api Clients Sayisi" time="1.447">
+        <system-out><![CDATA[Given kullanici endpoint olarak "https://generator.swagger.io/api/gen/clients" tanimlar.passed
+And kullanici request gönderip response elde eder...........................passed
+Then kullanici clients sayisini assert eder.................................passed
 ]]></system-out>
     </testcase>
 </testsuite>

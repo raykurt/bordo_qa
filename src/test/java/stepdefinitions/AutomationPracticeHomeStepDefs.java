@@ -8,6 +8,7 @@ import pages.AutomationPracticeHome;
 import pages.AutomationPracticeRegister;
 import utilities.ConfigurationReader;
 import utilities.Driver;
+import utilities.Log;
 
 public class AutomationPracticeHomeStepDefs {
 
