@@ -3,6 +3,7 @@ package stepdefinitions.jsonApiStepDefs;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.restassured.response.Response;
+import org.testng.Assert;
 import utilities.Log;
 
 import java.util.List;
@@ -22,23 +23,19 @@ public class JsonApiEntegrasyon {
     @Given("kullanici request gönderip response elde eder")
     public void kullanici_request_gönderip_response_elde_eder() {
         response = given().when().get(endpoint);
-
     }
 
     @Then("kullanici status code assert eder")
     public void kullanici_status_code_assert_eder() {
-        Log.info("Api Status Code Kontrol Ediliyor...");
+        Log.info("Api Status Code Assert Ediliyor...");
         response.then().statusCode(200);
     }
 
     @Then("kullanici clients sayisini assert eder")
     public void kullanici_clients_sayisini_assert_eder() {
-
         List<Object> el = response.as(List.class);
-        System.out.println("el = " + el);
-        System.out.println(el.size());
-
-
+        Log.info("Api Clients Sayısı Assert Ediliyor...");
+        Assert.assertEquals(56, el.size());
     }
 
 }

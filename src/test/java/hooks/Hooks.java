@@ -3,9 +3,6 @@ package hooks;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import utilities.Driver;
 import utilities.Log;
 import utilities.ReusableMethods;
 
@@ -21,14 +18,14 @@ public class Hooks {
     @After
     public void tearDown(Scenario scenario){
         Log.info("Test Bitti. Fail Senaryolarda Screenshot Alindi...");
-//        if (scenario.isFailed()) {
-//            try {
-//                ReusableMethods.getScreenshot("Screenshot");
-//            } catch (IOException e) {
-//                e.printStackTrace();
-//            }
-//        }
-//
+        if (scenario.isFailed()) {
+            try {
+                ReusableMethods.getScreenshot("Screenshot");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
 //        Driver.closeDriver();
     }
 

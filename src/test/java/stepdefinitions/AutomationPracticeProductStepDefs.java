@@ -1,7 +1,6 @@
 package stepdefinitions;
 
 import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
@@ -24,6 +23,8 @@ public class AutomationPracticeProductStepDefs {
     public void kullanici_dresses_ve_summer_dresses_menusunden_sepete_urun_ekler() {
         Actions actions = new Actions(Driver.getDriver());
         actions.moveToElement(homePage.dressesHomePage).perform();
+
+        Driver.waitForClickablility(homePage.summerDressesHomePage,5);
         homePage.summerDressesHomePage.click();
 
         product.summerDressesUrun.click();

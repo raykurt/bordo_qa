@@ -1,14 +1,9 @@
 package stepdefinitions;
 
 import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
-import org.openqa.selenium.interactions.Actions;
 import pages.AutomationPracticeHome;
-import pages.AutomationPracticeRegister;
 import utilities.ConfigurationReader;
 import utilities.Driver;
-import utilities.Log;
 
 public class AutomationPracticeHomeStepDefs {
 
