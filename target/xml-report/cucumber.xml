@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="107.769">
+    <testcase classname="Automation Practice Calisma" name="Automation Practice Yeni Kullanici Olusturma" time="39.631">
+        <system-out><![CDATA[Given kullanici tarayici acip automationpractice sayfasina gider............passed
+Given kullanici sign in butonuna tiklar.....................................passed
+And kullanici gecerli bir email adresiyle ilerler...........................passed
+When kullanici istenilen bilgileri girip yeni kullanici olusturur...........passed
+Then kullanici yeni kullanici olusturdugunu dogrular........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Practice Calisma" name="Automation Practice Sepete Urun Ekleme" time="67.779">
+        <system-out><![CDATA[Given kullanici tarayici acip automationpractice sayfasina gider............passed
+Given kullanici dresses ve summer dresses menusunden sepete urun ekler......passed
+When kullanici "summer" ürünü aratip sepete ekler...........................passed
+Then kullanici cart ve checkout menusunden sepete gidip urunleri dogrular...passed
+And kullanici sepeti dogrulayip address adimina ilerler.....................passed
+And kullanici address secip shipping adimina ilerler........................passed
+And kullanici kargo ve hizmet sartlarini kabul edip payment adimina ilerler.passed
+When kullanici payment adiminda odeme yontemi secip siparisi tamamlar.......passed
+Then kullanici siparisini account ve order history adimlariyla dogrular.....passed
+]]></system-out>
+    </testcase>
+</testsuite>

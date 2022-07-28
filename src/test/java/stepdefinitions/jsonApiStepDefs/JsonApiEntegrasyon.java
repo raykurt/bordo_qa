@@ -36,6 +36,6 @@ public class JsonApiEntegrasyon {
         List<Object> el = response.as(List.class);
         Log.info("Api Clients Sayısı Assert Ediliyor...");
         Assert.assertEquals(56, el.size());
-    }
 
+    }
 }
