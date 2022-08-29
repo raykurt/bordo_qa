@@ -6,6 +6,7 @@ public class Check {
         System.out.println("Check");
 
         System.out.println("Check_2");
+
     }
 
 }
