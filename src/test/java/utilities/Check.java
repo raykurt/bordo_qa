@@ -5,9 +5,9 @@ public class Check {
     public static void main(String[] args) {
         System.out.println("Check");
 
-        System.out.println("Check_2");
+        System.out.println("Check 2");
 
-        System.out.println("Check_3");
+        System.out.println("Check 3");
 
     }
 
