@@ -11,6 +11,8 @@ public class Check {
 
         System.out.println("Check 4");
 
+        System.out.println("Check 5");
+
     }
 
 }
