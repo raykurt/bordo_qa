@@ -13,7 +13,9 @@ public class Check {
 
         System.out.println("Check 5");
 
-        System.out.println("Check 5");
+        System.out.println("Check 6");
+
+        System.out.println("Check 7");
 
     }
 
