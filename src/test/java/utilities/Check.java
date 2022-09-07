@@ -7,6 +7,8 @@ public class Check {
 
         System.out.println("Check 2");
 
+        System.out.println("Check 3");
+
     }
 
 }
