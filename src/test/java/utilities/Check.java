@@ -23,7 +23,7 @@ public class Check {
             toplamFiyat=urunAdedi*listeFiyati*(0.9);
             System.out.println("%10 indirimli toplam fiyat : " + toplamFiyat);
         }else {
-            System.out.println("Gecersiz giris");
+            System.out.println("Gecersiz");
         }
     }
 
