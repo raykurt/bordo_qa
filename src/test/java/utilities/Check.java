@@ -4,8 +4,9 @@ public class Check {
 
     public static void main(String[] args) {
 
-        String str = "Java Candir";
-        System.out.println(str.replace("","_"));
+        String input="Ja5+**__?va cok 1__*guzel";
+        input=input.replaceAll("[0-9,%,.,_,,*,+,-]","");
+        System.out.println(input);
 
     }
 
