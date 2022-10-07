@@ -4,8 +4,8 @@ public class Check {
 
     public static void main(String[] args) {
 
-        System.out.println("check");
-        System.out.println("check");
+        String str = "Java Candir";
+        System.out.println(str.replace("","_"));
 
     }
 
