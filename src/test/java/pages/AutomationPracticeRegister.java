@@ -72,13 +72,13 @@ public class AutomationPracticeRegister {
     @FindBy(id="submitAccount")
     public WebElement registerAccountButton;
 
-    @FindBy(id="phone12")
+    @FindBy(id="phone22")
     public WebElement phoneNumberBox15;
 
-    @FindBy(id="phone_mobile22")
+    @FindBy(id="phone_mobile23")
     public WebElement mobileNumberBox15;
 
-    @FindBy(id="submitAccount22")
+    @FindBy(id="submitAccount23")
     public WebElement registerAccountButton15;
 
 
